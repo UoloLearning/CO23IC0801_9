@@ -1,1 +1,10 @@
-
+public class Main {
+     public static void main(String[] args) {
+        int num1 = 5;
+        System.out.println( "Value of num1++ is " + num1++);
+        System.out.println( "Value of num1 is " + num1);
+        System.out.println();
+        int num2 = 5;
+        System.out.println( "Value of ++num2 is " + (++num2));
+     }
+}
